@@ -1,12 +1,11 @@
 body {
-  font-family: 'roboto';
+  font-family: "roboto", "raleway", sans-serif;
   font-size: 14px;
 }
 
 .webstudio {
   text-decoration: none;
   font-family: 'Raleway';
-  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
@@ -30,6 +29,10 @@ body {
   color: #2196f3;
 }
 
+.link li a:focus {
+  color: #2196f3;
+}
+
 .datos-contacto {
   font-size: 14px;
   cursor: pointer;
@@ -45,6 +48,10 @@ body {
 }
 
 .datos-contacto li a:hover {
+  color: #2196f3;
+}
+
+.datos-contacto li a:focus {
   color: #2196f3;
 }
 
@@ -66,6 +73,17 @@ body {
   border-color: #2196f3;
   color: #fff;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.button-servicios:hover{
+  background-color: #0e77cc;
+  border-color: #0e77cc;
+}
+
+.button-servicios:focus{
+  background-color: #0e77cc;
+  border-color: #0e77cc;
 }
 
 .datos-servicios li {
@@ -102,27 +120,100 @@ body {
   text-align: center;
 }
 
-.equipo-1 {
+.andres {
   background-color: #fff;
   list-style: none;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-left: 30px;
 }
 
-.equipo-1 img {
+.andres img {
   width: 270px;
   height: 260px;
 }
 
-.equipo-1 h3 {
+.andres h3 {
   font-size: 16px;
   text-align: center;
   color: #212121;
 }
 
-.equipo-1 p {
+.andres p {
+  font-size: 16px;
+  text-align: center;
+  color: #757575;
+}
+.carla {
+  background-color: #fff;
+  list-style: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.carla img {
+  width: 270px;
+  height: 260px;
+}
+
+.carla h3 {
+  font-size: 16px;
+  text-align: center;
+  color: #212121;
+}
+
+.carla p {
+  font-size: 16px;
+  text-align: center;
+  color: #757575;
+}
+
+.mario {
+  background-color: #fff;
+  list-style: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.mario img {
+  width: 270px;
+  height: 260px;
+}
+
+.mario h3 {
+  font-size: 16px;
+  text-align: center;
+  color: #212121;
+}
+
+.mario p {
+  font-size: 16px;
+  text-align: center;
+  color: #757575;
+}
+
+.pablo {
+  background-color: #fff;
+  list-style: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.pablo img {
+  width: 270px;
+  height: 260px;
+}
+
+.pablo h3 {
+  font-size: 16px;
+  text-align: center;
+  color: #212121;
+}
+
+.pablo p {
   font-size: 16px;
   text-align: center;
   color: #757575;
@@ -142,6 +233,14 @@ footer {
 
 .f-datos li {
   list-style: none;
+}
+
+.f-datos li a:hover{
+  color: #2196f3;
+}
+
+.f-datos li a:focus{
+  color: #2196f3;
 }
 
 .f-correo {
@@ -172,6 +271,14 @@ footer {
 }
 
 /* PORTAFOLIO */
+
+.nav-interna li{
+  list-style: none;
+}
+
+.nav-interna li button{
+  cursor: pointer;
+}
 
 .btt1 {
   background: #2196f3;
@@ -261,6 +368,14 @@ footer {
 .btt5:hover {
   background-color: #2196f3;
   color: #fff;
+}
+
+.paginas li{
+  list-style: none;
+}
+
+.paginas li a{
+  text-decoration: none;
 }
 
 .conte {

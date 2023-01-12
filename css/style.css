@@ -7,7 +7,8 @@ body {
   text-decoration: none;
   font-family: 'Raleway';
   font-size: 26px;
-  line-height: 31px;
+  font-weight: 900;
+  line-height: 1.3;
   color: #2196f3;
 }
 
@@ -73,7 +74,9 @@ body {
   border-color: #2196f3;
   color: #fff;
   font-size: 16px;
+  font-weight: 700;
   cursor: pointer;
+  line-height: 1.8;
 }
 
 .button-servicios:hover{
@@ -92,18 +95,24 @@ body {
 
 .datos-servicios h3 {
   font-size: 14px;
+  font-weight: 700;
   color: #212121;
+  line-height: 1.1;
 }
 
 .datos-servicios p {
   font-size: 14px;
+  font-weight: 400;
   color: #757575;
+  line-height: 1.7;
 }
 
 .servicios h2 {
   font-size: 32px;
+  font-weight: 700;
   color: #212121;
   text-align: center;
+  line-height: 1.1;
 }
 
 .servicios li {
@@ -116,8 +125,11 @@ body {
 
 .equipo h2 {
   font-size: 36px;
+  font-weight: 700;
   color: #212121;
   text-align: center;
+  line-height: 1.1;
+  font-weight: 700;
 }
 
 .andres {
@@ -135,12 +147,16 @@ body {
 
 .andres h3 {
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
   color: #212121;
 }
 
 .andres p {
   font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
   text-align: center;
   color: #757575;
 }
@@ -159,6 +175,8 @@ body {
 
 .carla h3 {
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
   color: #212121;
 }
@@ -166,6 +184,8 @@ body {
 .carla p {
   font-size: 16px;
   text-align: center;
+  font-weight: 400;
+  line-height: 1.1;
   color: #757575;
 }
 
@@ -184,12 +204,16 @@ body {
 
 .mario h3 {
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
   color: #212121;
 }
 
 .mario p {
   font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
   text-align: center;
   color: #757575;
 }
@@ -209,12 +233,16 @@ body {
 
 .pablo h3 {
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
   color: #212121;
 }
 
 .pablo p {
   font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
   text-align: center;
   color: #757575;
 }
@@ -248,8 +276,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.1;
 }
 
 .f-direccion {
@@ -257,8 +284,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.1;
 }
 
 .f-direccion p {
@@ -266,8 +292,17 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.1;
   color: #fff;
+}
+
+.f-telefono{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.1;
+color: rgba(255, 255, 255, 0.6);
 }
 
 /* PORTAFOLIO */
@@ -289,8 +324,9 @@ footer {
   width: 73px;
   height: 38px;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #fff;
 }
 
@@ -303,8 +339,9 @@ footer {
   border-radius: 4px;
   border-color: #f5f4fa;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -322,8 +359,9 @@ footer {
   border-radius: 4px;
   border-color: #f5f4fa;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -341,8 +379,9 @@ footer {
   border-radius: 4px;
   border-color: #f5f4fa;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -360,8 +399,9 @@ footer {
   border-radius: 4px;
   border-color: #f5f4fa;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
 }
 
@@ -396,12 +436,14 @@ footer {
 
 .conte h3 {
   font-size: 18px;
-  line-height: 36px;
+  font-weight: 700;
+  line-height: 2;
   color: #212121;
 }
 
 .conte p {
   font-size: 16px;
-  line-height: 30px;
+  font-weight: 400;
+  line-height: 1.8;
   color: #757575;
 }

@@ -15,6 +15,8 @@ body {
 .link {
   font-size: 14px;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 .link li {
@@ -37,6 +39,8 @@ body {
 .datos-contacto {
   font-size: 14px;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 .datos-contacto li {
@@ -321,8 +325,7 @@ color: rgba(255, 255, 255, 0.6);
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border-color: #2196f3;
-  width: 73px;
-  height: 38px;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.1;
@@ -331,13 +334,10 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .btt2 {
-  width: 128px;
-  height: 38px;
-  left: calc(50% - 128px / 2 - 160px);
-  top: calc(50% - 38px / 2 - 735px);
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.1;
@@ -350,14 +350,15 @@ color: rgba(255, 255, 255, 0.6);
   color: #fff;
 }
 
+.btt2:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
 .btt3 {
-  width: 145px;
-  height: 38px;
-  left: calc(50% - 145px / 2 - 15.5px);
-  top: calc(50% - 38px / 2 - 735px);
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.1;
@@ -370,14 +371,16 @@ color: rgba(255, 255, 255, 0.6);
   color: #fff;
 }
 
+.btt3:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+
 .btt4 {
-  width: 103px;
-  height: 38px;
-  left: calc(50% - 103px / 2 + 116.5px);
-  top: calc(50% - 38px / 2 - 735px);
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.1;
@@ -390,14 +393,16 @@ color: rgba(255, 255, 255, 0.6);
   color: #fff;
 }
 
+.btt4:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+
 .btt5 {
-  width: 130px;
-  height: 38px;
-  left: calc(50% - 130px / 2 + 241px);
-  top: calc(50% - 38px / 2 - 735px);
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.1;
@@ -406,6 +411,11 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .btt5:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.btt5:focus {
   background-color: #2196f3;
   color: #fff;
 }

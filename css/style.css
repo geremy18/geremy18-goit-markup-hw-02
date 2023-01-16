@@ -320,6 +320,8 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .btt1 {
+  width: 73px;
+  height: 38px;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -334,6 +336,8 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .btt2 {
+  width: 128px;
+  height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;
@@ -355,6 +359,8 @@ color: rgba(255, 255, 255, 0.6);
   color: #fff;
 }
 .btt3 {
+  width: 145px;
+  height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;
@@ -377,6 +383,8 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .btt4 {
+  width: 103px;
+  height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;
@@ -399,6 +407,8 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .btt5 {
+  width: 130px;
+  height: 38px;
   background: #f5f4fa;
   border-radius: 4px;
   border-color: #f5f4fa;

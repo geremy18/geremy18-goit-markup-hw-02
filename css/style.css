@@ -1,6 +1,6 @@
 body {
   font-family: "roboto", "raleway", sans-serif;
-  font-size: 14px;
+  font-size: 14px;  
 }
 
 .webstudio {
@@ -15,6 +15,7 @@ body {
 .link {
   font-size: 14px;
   cursor: pointer;
+  padding: 0;
 }
 
 .link li {
@@ -41,6 +42,7 @@ body {
   cursor: pointer;
   font-weight: 500;
   line-height: 1.1;
+  padding: 0;
 }
 
 .datos-contacto li {
@@ -311,6 +313,10 @@ color: rgba(255, 255, 255, 0.6);
 
 /* PORTAFOLIO */
 
+.nav-interna{
+  padding: 0;
+}
+
 .nav-interna li{
   list-style: none;
 }
@@ -441,7 +447,6 @@ color: rgba(255, 255, 255, 0.6);
 .conte {
   background: #ffffff;
   border: 1px solid #eeeeee;
-  margin-left: 30px;
 }
 
 .conte:hover {
